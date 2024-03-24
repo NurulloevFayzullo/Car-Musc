@@ -4,7 +4,7 @@
 body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-
+    background-color: black;
 }
 .main-header{
     background-image: url('/IMG/Rectangle 64.png');
@@ -89,5 +89,95 @@ body{
 .main2 p:nth-child(3){
     color: #DB3138;
 }
+.section1{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-part-1{
+    width: 50%;
+}
+.section-part-1 p{
+ width: 80%;
+}
+.section-part-1 img{
+    margin: 50px 0px 50px 0px;
+}
+.section-part-1 h1{
+   text-transform: uppercase;
+   font-size: 28px;    
+}
+.section-part-2{
+    display: flex;
+    text-align: center;
+  
+   
+}
+.section-part-2 div div{
+    border: 1px solid #898989;
+}
+.table1 tr td{
+    border: 1px solid #898989;
+    padding: 20px;
+   
+}
+.table1{
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.table2 tr td{
+    border-top: 1px solid #898989;
+    border-bottom: 1px solid #898989;
+    border-right: 1px solid #898989;
+    padding: 20px;
+   
+}
+.table2{
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 30px;
+    
+}
+.main-table{
+    display: flex;
+   text-transform: uppercase;
+   width: 50%;
+   
+}
+.table2 tr td p:nth-child(even){
+    font-size: 12px;
+}
+.table1 tr td p:nth-child(even){
+    font-size: 12px;
+}
+.table2 tr td p:nth-child(odd){
+    color: #DB3138;
+    margin-bottom: 8px;
+}
+.table1 tr td p:nth-child(odd){
+  color: #DB3138;
+  margin-bottom: 8px;
+}
+.table2 tr td p span{
+    font-size: 35px;
+}
+.table1 tr td p span{
+ font-size: 35px;
+}
 
 
+@media(max-width:768px){
+    .section1{
+        margin-top: 100vh;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .section1 div:first-child{
+        margin-bottom: 50px;
+    }
+}
