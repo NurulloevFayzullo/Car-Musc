@@ -234,12 +234,98 @@ body{
     width: 50px;
     height: 50px;
 }
+.section4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    
+}
+.section4 div{
+    display: flex ;
+    justify-content: space-between;
+  
+   
+}
+.section4 div a:nth-child(1){
+    text-decoration: none;
+  
+    background-color: #DB3138;
+    color: white;
+    padding: 15px;
+    margin-right: 50px;
+}
+.section4 div a:nth-child(2){
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.section4 img{
+    margin: 40px 0px 40px 0px;
+}
+.section5{
+    display: flex;
+    
+    justify-content: space-around;
+    margin-top: 100px;
+   
+}
+.section5 div{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    flex-direction: column;
+    width: 19%;
+    text-align: center;
+    
+    
+}
+.sec5{
+border: 1px solid #898989;
+ padding: 50px 20px;
+}
+.section5 div p{
+    margin: 10px 0px 30px 0px;
+}
+.section5 div div{
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.section5 div div a{
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+    right: 20px;
+    position: relative;
+}
+.section5 div div div:nth-child(1){
+    background-color: #DB3138;
+    width: 60px;
+    height: 40px;
+   position: relative;
+   left: 20px;
+   z-index: 0;
+}
+
 @media(max-width:768px){
     .header a{
         font-size: 8px;
     }
     .header a img{
         width: 20px;
+    }
+    .section5{
+        flex-wrap: wrap;
+        
+    }
+    .section5 div{
+        width: 70%;
+        margin-bottom: 50px;
+    }
+    .section5 div div a{
+        bottom: 24px;
     }
     .main h1{
         font-size:20px ;
