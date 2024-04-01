@@ -362,8 +362,95 @@ border: 1px solid #898989;
     width: 16.5%;
 }
 
+.section8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.section8 h1{
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.section8 input:nth-child(1){
+    border: 1px solid #DB3138;
+    
+}
+.section8 input{
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border: 1px solid  #141414;
+   padding: 10px;
+}
+.section8 div{
+   
+    display: flex;
+    text-decoration:none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
+::placeholder{
+    color: #898989;
+}
+.section8 textarea{
+    background-color: transparent;
+    outline: none;
+    color: white;
+}
+.sec8-1{
+    width: 30%;
+    margin-top: 20px;
+}
+.sec8-2{
+    margin-top: 20px;
+   margin-bottom: 20px;
+   width: 30%;
+}
+.sec8-2 div{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+ width: 45px;
+}
 
+.sec8-3-4{
+ display: flex;
+ flex-direction: column;
+}
+.sec8-3-4-4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.sec8-3 p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.sec8-3 img{
+    width: 15px;
+}
+.sec8-3{
+    width: 30%;
+    align-items: center;
+}
+.sec8-3-3{
+    align-items: center;
+}
+.sec8-3 div:first-child a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    right: 45px;
+}
+.sec8-3 div:first-child div{
+    background-color: #DB3138;
+    width: 70px;
+    height: 40px;
+}
 @media(max-width:768px){
     .header a{
         font-size: 8px;
